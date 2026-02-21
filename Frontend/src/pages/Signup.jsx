@@ -53,7 +53,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/api/users/signup", {
+      const res = await axios.post("https://tripapp-backend-24jx.onrender.com/api/users/signup", {
         username: formData.username,
         email: formData.email,
         password: formData.password,
