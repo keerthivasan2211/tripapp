@@ -16,7 +16,7 @@ const Admin = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const res = await axios.get("http://localhost:5000/api/admin/LSlogs", {
+      const res = await axios.get("https://tripapp-backend-24jx.onrender.com/api/admin/LSlogs", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
