@@ -13,7 +13,7 @@ const Home = () => {
       try {
         const token = localStorage.getItem("token");
         const res = await axios.post(
-          "http://localhost:5000/api/users/userdetails",
+          "https://tripapp-backend-24jx.onrender.com/api/users/userdetails",
           {},
           {
             headers: {
