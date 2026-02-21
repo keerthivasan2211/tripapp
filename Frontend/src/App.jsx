@@ -7,7 +7,7 @@ import PublicRoute from "./Components/PublicRoute";
 import Home from "./pages/Home";
 import Oneday from "./pages/Oneday";
 import Admin from "./pages/Admin";
-import Twoday from "./pages/twoday";
+import Twoday from "./pages/Twoday";
 import Withchennai from "./pages/Withchennai";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
